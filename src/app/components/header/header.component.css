@@ -1,0 +1,35 @@
+header{
+  margin-bottom: 1.5em;
+}
+
+#logo_img{
+  width: 100px;
+  height: 100px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  border-bottom: solid 1px #777;
+}
+
+.brand, .links{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brand h2:hover {
+  color: #dec129;
+  transition: 0.4s;
+}
+
+.links li {
+  margin-right: 1em;
+}
+
+
+#add a:hover{
+  background-color: #f9f9f9;
+}
